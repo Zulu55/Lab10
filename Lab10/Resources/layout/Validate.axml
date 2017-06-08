@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="@string/Email"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EmailText"
+        android:text=""
+        android:inputType="textEmailAddress" />
+    <TextView
+        android:text="@string/Password"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PasswordText"
+        android:text=""
+        android:inputType="textPassword" />
+    <Button
+        android:text="@string/Validate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ValidateButton" />
+    <TextView
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MessageText"
+        android:textColor="@android:color/holo_green_dark"
+        android:paddingLeft="20.0dp"
+        android:paddingTop="20.0dp"
+        android:paddingRight="20.0dp"
+        android:paddingEnd="20.0dp" />
+</LinearLayout>
